@@ -1,0 +1,1 @@
+ python main.py --env-name "PongNoFrameskip-v4" --algo ppo --use-gae --lr 2.5e-4 --clip-param 0.1 --value-loss-coef 0.5 --num_processes 8 --num-mini-batch 4 --log-interval 1 --use-linear-lr-decay --entropy-coef 0.01

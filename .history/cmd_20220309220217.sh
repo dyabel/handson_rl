@@ -1,0 +1,2 @@
+ python main.py --env-name "Hopper-v3" --algo ppo --use-gae --lr 2.5e-4 --clip-param 0.1 --value-loss-coef 0.5 --num_processes 8 --env_steps_per_update 128 --num-mini-batch 4 --log-interval 1 --use-linear-lr-decay --entropy-coef 0.01
+ python main_ori.py --env-name "Hopper-v3" --algo ppo --use-gae --lr 2.5e-4 --clip-param 0.1 --value-loss-coef 0.5 --num_processes 8 --num_steps 128 --num-mini-batch 4 --log-interval 1 --use-linear-lr-decay --entropy-coef 0.01 --eval-interval 1 --use-cuda
